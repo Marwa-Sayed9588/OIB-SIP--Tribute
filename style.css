@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif; 
+  background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+  
+}
+header {
+  margin: 0;
+  padding: 0;
+  background-image:#111;
+  margin-bottom: 10px;
+}
+
+.container { 
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Name {
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.Name > h4 {
+  font-size: 20px;
+  color: #666; 
+}
+
+h2 {
+  font-size: 30px;
+  color: #106e57; 
+  text-align: center;
+  margin-top: 40px; 
+}
+
+img {
+  max-width: 100%; 
+  border-radius: 10px; 
+  box-shadow: rgba(46, 240, 166, 0.4) -5px 5px, rgba(240, 156, 46, 0.3) -10px 10px, rgba(204, 40, 68, 0.2) -15px 15px, rgba(73, 37, 173, 0.1) -20px 20px, rgba(78, 240, 46, 0.05) -25px 25px;
+}
+
+.table-border {
+  margin-top: 20px;
+  overflow-x: auto; 
+}
+
+.table {
+  width: 90%;
+  margin: 0 auto; 
+  border-collapse: collapse;
+  color: #000;
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);}
+th{
+  color: #1883fd;
+  font-weight: bold;
+  
+}
+td, th {
+  padding: 10px;
+  border: 1px solid #fdfffe;
+  font-size: 1.5em;
+}
+
+.parag {
+  font-size: 28px;
+  text-align: center; 
+  margin-top: 20px;
+  padding: 0 40px; 
+}
+
+.All-text {
+  font-size: 26px;
+  padding: 0 80px;
+  margin-top: 50px;
+  text-align: justify;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+.h1 {
+  text-align: center;
+  color: #1f0431;
+  font-size: 44px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.img {
+  position: relative;
+  float: right;
+  width: 600px;
+  margin: 0 480 20px 50px;
+  border-radius: 10px; 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer {
+  margin-top: 240px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #6e5679;
+  color: #ffffff;
+}
+footer p{
+  font-size: 28px;
+}
+
+footer a {
+  color: #007bff; 
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  
+      h2{
+        font-size: 19px;
+        justify-items:justify ;
+        float: center;
+      }
+    
+     .parag {
+      font-size:22px;
+      justify-items:justify ;
+      float: center;
+     }
+     .h1{
+      float:center;
+      justify-content: center;
+      font-size:34px;
+     }
+     .img {
+      float:center;
+      max-width: 300px ;
+      align-items: center;
+      justify-content: center;
+
+     }
+     .All-text {
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+     }
+
+
+
+
+
+}
+
+
+
+
